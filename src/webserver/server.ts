@@ -47,6 +47,7 @@ const onError = (error: ErrnoException) => {
 };
 
 const port = normalizePort(process.env.PORT || "4444");
+const Beispiel;
 app.set("port", port);
 
 const server = http.createServer(app);
